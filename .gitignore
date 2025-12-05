@@ -1,3 +1,5 @@
-data/
+data/processed_stations_2018.csv
+data/processed_trips_2018.csv
+data/Trips_2018.csv
 
 **/.DS_Store
