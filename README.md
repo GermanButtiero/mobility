@@ -17,23 +17,22 @@ All results are fully reproducible using the notebooks included in this reposito
 
 ## 📁 Repository Structure
 
+```text
 project/
 │
 ├── data/
-│ └── ... # Raw and processed datasets
+│   └── ...                                   # Raw and processed datasets
 │
 ├── src/
-│ ├── dataset.ipynb # Data cleaning, preprocessing, station extraction
-│ ├── clustering.ipynb # Station clustering + cluster label assignment
-│ ├── predictions.ipynb # Prediction Challenge solution
-│ ├── subscription_patterns.ipynb # Subscriber vs non-subscriber usage analysis
-│ ├── exploratory2_subway.ipynb # Subway station influence analysis
-│ ├── Data Analysis and Visualization 2.ipynb # Plots and initial exploration
+│   ├── dataset.ipynb                         # Data cleaning, preprocessing, station extraction
+│   ├── clustering.ipynb                      # Station clustering + cluster label assignment
+│   ├── predictions.ipynb                     # Prediction Challenge solution
+│   ├── subscription_patterns.ipynb           # Subscriber vs non-subscriber usage analysis
+│   ├── exploratory2_subway.ipynb             # Subway station influence analysis
+│   ├── Data Analysis and Visualization 2.ipynb  # Plots and initial exploration
 │
-└── README.md # Project description
-
-
----
+└── README.md                                 # Project description
+```
 
 ## 🔧 Notebook Descriptions
 
