@@ -1,1 +1,63 @@
-# mobility
+Citi Bike Mobility Challenge
+
+Project for the 42577 Introduction to Business Analytic course - DTU. 
+
+Project Objectives
+
+This project consists of two main components:
+
+1. Clustering and Prediction Challenge
+
+2. Exploratory Component
+
+
+All results are reproducible using the notebooks in this repository.
+
+📁 Repository Structure
+project/
+│
+├── data/
+│   └── …                          # Raw and processed datasets
+│
+├── src/
+│   ├── dataset.ipynb                            # Data cleaning, preprocessing, station extraction
+│   ├── clustering.ipynb                         # Station clustering + cluster label assignment
+│   ├── predictions.ipynb                        # Prediction Challenge solution
+│   ├── subscription_patterns.ipynb              # Subscriber vs. non-subscriber usage analysis
+│   ├── exploratory2_subway.ipynb                # Subway station influence analysis
+│   ├── Data Analysis and Visualization 2.ipynb  # Plots and initial exploration
+│
+└── README.md                                    # Project description
+
+🔧 Notebook Descriptions
+dataset.ipynb
+
+Cleans and preprocesses the full Citi Bike dataset
+
+Generates:
+
+processed trips dataset
+
+stations dataset 
+
+clustering.ipynb
+
+Uses the stations dataset to perform spatial clustering
+
+Assigns each station to a cluster based on geographic coordinates
+
+predictions.ipynb
+
+Implements the Prediction Challenge
+
+subscription_patterns.ipynb
+
+Analyzes how Subscribers vs Non-Subscribers use the system
+
+exploratory2_subway.ipynb
+
+Examines the relationship between bike-sharing and nearby subway stations
+
+Data Analysis and Visualization 2.ipynb
+
+Produces visualizations
