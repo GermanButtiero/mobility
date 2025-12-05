@@ -21,43 +21,41 @@ All results are fully reproducible using the notebooks included in this reposito
 project/
 │
 ├── data/
-│   └── ...                                   # Raw and processed datasets
+│   └── processed_metro_hourly.csv              # Condensed from 8GB, for convenience we provide it
+│   └── processed_metro_stations.csv            # Condensed from 8GB, for convenience we provide it
+│   └── ...                                     # All the remaining sets will be generated with code (Too big for Learn) 
 │
 ├── src/
-│   ├── dataset.ipynb                         # Data cleaning, preprocessing, station extraction
-│   ├── clustering.ipynb                      # Station clustering + cluster label assignment
-│   ├── predictions.ipynb                     # Prediction Challenge solution
-│   ├── subscription_patterns.ipynb           # Subscriber vs non-subscriber usage analysis
-│   ├── exploratory2_subway.ipynb             # Subway station influence analysis
-│   ├── Data Analysis and Visualization 2.ipynb  # Plots and initial exploration
+│   ├── 1_Dataset.ipynb                         # Data cleaning, preprocessing, station extraction
+│   ├── 2_Clustering.ipynb                      # Station clustering + cluster label assignment
+│   ├── 3_Predictions.ipynb                     # Prediction Challenge solution
+│   ├── 4_Subscription Patterns.ipynb           # Subscriber vs non-subscriber usage analysis
+│   ├── 5_Subway Patterns.ipynb             # Subway station influence analysis
 │
 └── README.md                                 # Project description
 ```
 
 ## 🔧 Notebook Descriptions
 
-### `dataset.ipynb`
+### `1_Dataset.ipynb`
 - Cleans and preprocesses the full Citi Bike dataset  
 - Generates:
   - Processed trips dataset  
   - Stations dataset  
 
-### `clustering.ipynb`
+### `2_Clustering.ipynb`
 - Performs spatial clustering of stations  
 - Assigns each station to a cluster based on geographic coordinates  
 
-### `predictions.ipynb`
+### `3_Predictions.ipynb`
 - Implements the **Prediction Challenge**  
 - Builds and evaluates predictive models  
 
-### `subscription_patterns.ipynb`
+### `4_Subscription Patterns.ipynb`
 - Analyzes usage patterns of **Subscribers vs Non-Subscribers**  
 
-### `exploratory2_subway.ipynb`
+### `5_Subway Patterns.ipynb`
 - Examines the relationship between bike-sharing activity and proximity to subway stations  
-
-### `Data Analysis and Visualization 2.ipynb`
-- Produces visualizations and initial exploratory analysis  
 
 ---
 

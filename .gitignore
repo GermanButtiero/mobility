@@ -1,5 +1,6 @@
 data/processed_stations_2018.csv
 data/processed_trips_2018.csv
 data/Trips_2018.csv
+data/MTA_Subway_Hourly_Ridership__2017-2019.csv
 
 **/.DS_Store
